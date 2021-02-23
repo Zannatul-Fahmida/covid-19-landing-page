@@ -306,7 +306,7 @@ body {
     overflow-x: hidden;
 } 
 .nav-links, footer ul {
-    display: hidden;
+    display: none;
 } 
 .nav-links {
     position: fixed;
