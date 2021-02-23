@@ -1,0 +1,422 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #fa555204;
+}
+a {
+    text-decoration: none;
+    color: #035755;
+  }
+ul {
+    list-style: none;
+  }
+h3, h2, p {
+    margin-bottom: 10px;
+}
+h3 {
+    color: #fa5652;
+    font-size: 22px;
+    font-weight: 700;
+}
+h2 {
+    color: #035755;
+    font-size: 37px;
+    font-weight: 700;
+}
+p {
+    color: #4b4f51;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: auto;
+}
+i {
+    cursor: pointer;
+}
+.contact-btn{
+    width: 100px;
+    height: 30px;
+    border: 2px solid #FB4C47;
+    box-sizing: border-box;
+    border-radius: 46px;
+    color: #FF383D;
+    background-color: #fa555204;
+    font-size: 15px;
+    font-weight: 500;
+}
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    height: 10%;
+    padding: 20px 0;
+}
+.logo {
+    width: 150px;
+}
+ul {
+    display: flex;
+}
+ul li {
+    padding: 0 15px;
+}
+ul li a:hover {
+    color: #fa5652;
+}
+.main-nav .burger {
+    display: none;
+}
+.showcase {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    align-items: center;
+}
+.showcase img {
+    width: 100%;
+}
+.showcase-left {
+    width: 80%;
+}
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    padding: 12px 30px;
+    background-color: #f44a45;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.learn-more {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-column-gap: 15px;
+    width: 100%;
+    height: 100%;
+}
+.learn-more img {
+    width: 80%;
+    margin: 0 auto;
+}
+.learn-more a {
+    background-color: #f44b4542;
+    color: #fa5652;
+}
+.learn-more .text {
+    padding-left: 30px;
+}
+.contagion {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 20% 70%;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.card h2 {
+    font-size: 27px;
+}
+.top {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+}
+.contagion .bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+    text-align: center;
+    grid-column-gap: 20px;
+}
+.bottom .card {
+    display: grid;
+    grid-template-rows: 60% 40%;
+    background: #ffffff;
+    box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    align-items: center;
+}
+.card .text {
+    padding: 0 30px;
+}  
+.card .bottom .img-container {
+    margin-bottom: 50px;
+}
+.card img {
+    padding: 50px;
+    height: 300px;
+    width: 290px;
+    margin: auto;
+    text-align: center;
+  }
+  
+.card:hover {
+    border-bottom: 3px solid #fa5652;
+}
+.symptoms {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}  
+.symptoms .top {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.symptoms .img-container {
+    margin-top: 30px;
+}
+.symptoms img {
+    width: 100%;
+}
+.todo {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 15% 80%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.todo .top {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.todo .bottom {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+.todo .bottom .sym-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.todo .bottom .text {
+    padding: 50px;
+}
+.todo .bottom .two, .todo .bottom .four {
+    direction: rtl;
+    text-align: left;
+}
+.todo img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.questions {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.questions img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+.questions form {
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.questions h2 {
+    text-align: center;
+}
+.questions input {
+    width: 350px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.09);
+    margin-right: 10px;
+} 
+.questions .btn {
+    position: relative;
+    text-align: center;
+    width: 120px;
+    margin: 0;
+}
+form h2{
+    color: #0C6C44;
+}
+footer {
+    width: 100%;
+} 
+footer .top-footer {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    font-size: 23px;
+    font-weight: 400;
+} 
+footer .top-footer img{
+    margin-bottom: 25px;
+}
+footer .top-footer .social i {
+    margin-bottom: 25px;
+    padding: 0 7px;
+    color: #035755;
+}
+footer .top-footer .social .fa-youtube {
+    color: #fa5652;
+}
+footer .buttom-footer {
+    text-align: center;
+    color: #415E56;
+    font-weight: normal;
+    font-size: 23px;
+} 
+@media only screen and (max-width: 700px) {
+body {
+    overflow-x: hidden;
+} 
+.nav-links, footer ul {
+    display: hidden;
+} 
+.nav-links {
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    width: 60%;
+    top: 0;
+    background-color: #035755;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(100%);   
+    transition: transform 1s ease-in;
+    z-index: 1;  
+}    
+.nav-links li a {
+    color: #fff;
+}
+.nav-active {
+    transform: translateX(0%);
+} 
+.main-nav .collapse {
+    display: block;
+    cursor: pointer;
+    font-size: 35px;
+    color: #035755;
+}
+.showcase .showcase-left {
+    margin-bottom: 20px;
+} 
+.showcase {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.showcase-left {
+    margin: 0 auto;
+}
+.showcase, .learn-more {
+    grid-template-columns: 1fr;
+}
+.learn-more {
+    display: flex;
+    flex-direction: column-reverse;
+}  
+.learn-more .text {
+    width: 80%;
+    padding: 0;
+    text-align: center;
+}
+.learn-more .img-container {
+    width: 100%;
+}
+.learn-more img {
+    margin-top: 20px;
+    width: 80%;
+    margin: 20px 30px 0;
+} 
+.contagion .top {
+    width: 80%;
+    margin-bottom: 80px;
+}
+.contagion .bottom {
+    grid-template-columns: 1fr;
+}
+.contagion .bottom .card {
+    margin: 20px 0;
+}
+.symptoms .top {
+    width: 80%;
+}
+.todo .top {
+    width: 80%;
+}
+.todo h2 {
+    font-size: 35px;
+}
+.todo .bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.todo .bottom .sym-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.questions h2 {
+    font-size: 28px;
+}
+.questions {
+    margin: 0;
+}
+.questions form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+footer i {
+    font-size: 20px;
+}
+footer img {
+    width: 120px;
+}
+footer p {
+    font-size: 15px;
+}
+.logo img {
+    width: 120px;
+}
+}
